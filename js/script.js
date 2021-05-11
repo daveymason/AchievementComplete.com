@@ -28,7 +28,6 @@ $(function() {
 Code Reuse: Traversy Media
 =============================================================================================
 */
-const colsRight = document.querySelectorAll('.animateInRight') 
 const colsLeft = document.querySelectorAll('.animateInLeft') 
 
 window.addEventListener('scroll', checkCols)
@@ -47,16 +46,6 @@ function checkCols() {
             animateInLeft.classList.remove('show')
         }
     })
-
-    colsRight.forEach(animateInRight => {
-        const colTop =  animateInRight.getBoundingClientRect().top
-
-        if(colTop < triggerBottom){
-            animateInRight.classList.add('show')
-        } else {
-            animateInRight.classList.remove('show')
-        }
-    })  
 }
 /* 
 =============================================================================================
