@@ -65,7 +65,7 @@ body {
   margin: 0;
 }
 
-.btn {
+.btnDownload {
   position: absolute;
   display: flex;
   align-items: center;
@@ -81,6 +81,7 @@ body {
   text-transform: uppercase;
   width: 15rem;
   padding: 1.5rem;
+  border-radius: 10%;
 }
 
 .split.left .btn:hover {
@@ -155,12 +156,12 @@ body {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.4rem !important;
     top: 30%;
   }
 
   .btn {
-    padding: 1.2rem;
-    width: 12rem;
+    padding: 1rem;
+    width: 10rem;
   }
 }

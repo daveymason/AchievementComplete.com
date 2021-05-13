@@ -175,6 +175,18 @@ Buttons
   font-size: 5.5rem;
 }
 
+.fa-footer{
+  color: white !important;
+  font-size: 1.8rem;
+}
+
+.fa-footer:hover{
+  transform: scale(1.1);
+  transition: cubic-bezier(1.075, 1.82, 1.165, 1);
+  color: #ffbb00 !important;
+  font-size: 2rem;
+}
+
 .headerBg{
   min-height: 100vh !important;
 }
@@ -184,6 +196,8 @@ Buttons
 .jumbotron {
   border-radius: 0;
 }
+
+
 /* 
 =============================================================================================
 Carousel
