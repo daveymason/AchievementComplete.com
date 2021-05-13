@@ -1,2 +1,2 @@
 # AchievementComplete.com
- First assignment for NuCamp
+First portfolio project for the Front-End Bootcamp at NuCamp. 
