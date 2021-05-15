@@ -81,7 +81,9 @@ p {
 .fas {
   color: #0d0164;
 }
-
+.bi {
+  color: #00d5ff;
+}
 .blackOverlay {
   background: rgba(0, 0, 0, 0.404);
   background-blend-mode: overlay;
@@ -186,7 +188,6 @@ Buttons
   color: #ffbb00 !important;
   font-size: 2rem;
 }
-
 .headerBg{
   min-height: 100vh !important;
 }
@@ -253,7 +254,7 @@ Carousel
 }
 /* 
 =============================================================================================
-Images
+Images all came from pexels.com or pixabay.com
 =============================================================================================
 */
 .headerBg {
@@ -299,9 +300,6 @@ Images
   border-radius: 5%;
 }
 
-.bi {
-  color: #00d5ff;
-}
 
 .headerPadding {
   padding: 3rem 0 0 0;
