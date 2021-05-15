@@ -325,6 +325,9 @@ Images all came from pexels.com or pixabay.com
   height: 1.1rem;
   width: 1.1rem;
 }
+.modal-header{
+  background-color: #00d5ff;
+}
 /* 
 =============================================================================================
 Code Reuse: Traversy Media

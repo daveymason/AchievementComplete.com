@@ -40,9 +40,12 @@ h1 {
 .navbar {
 	transition: all 0.5s ease-in-out;
 }
+.modal-header{
+  background-color: #00d5ff;
+}
 /* 
 =============================================================================================
-Code Reuse: Traversy Media
+Code Reuse (And edited): Traversy Media
 =============================================================================================
 */
 :root {
