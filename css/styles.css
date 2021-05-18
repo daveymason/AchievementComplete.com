@@ -2,36 +2,30 @@
 SVG backgrounds from svgbackgrounds.com
 Images have all come from pexels.com or pixabay.com - None of them required a link back.  
 */
-
 /* 
 =============================================================================================
 Global Styles
 =============================================================================================
 */
-
 footer {
   background-color: #00d5ff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2303abe0' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%230580c1' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%230856a2' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%230a2b83' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%230d0164' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 blockquote .lead {
-  font-size: 1.5rem !important;
-}
+  font-size: 1.5rem !important; }
 
 body {
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23f0f0f0' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23f2f2f2'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
-  overflow-x: hidden !important;
-}
+  overflow-x: hidden !important; }
 
 /* 
 =============================================================================================
 Font & Text
 =============================================================================================
 */
-
 h1,
 h2,
 h3,
@@ -40,98 +34,91 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  font-style: italic;
-}
+  font-style: italic; }
 
 h1 {
   word-wrap: break-word;
   font-size: 3rem !important;
-  text-shadow: 0.1rem 0.1rem #adadad78;
-}
+  text-shadow: 0.1rem 0.1rem #adadad78; }
+
 h2 {
   color: #0d0164;
-  text-shadow: 0.1rem 0.1rem #ffffffb4;
-}
+  text-shadow: 0.1rem 0.1rem #ffffffb4; }
+
 h3 {
-  /* color: #0d0164; */
-  text-shadow: 0.1rem 0.1rem #7979796b;
-}
+  /* color: $color-dark-primary; */
+  text-shadow: 0.1rem 0.1rem #7979796b; }
 
 body,
 p,
 a {
   font-family: "Chivo", sans-serif;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 p {
-  font-size: 1.15rem;
-}
+  font-size: 1.15rem; }
 
 .blueText {
   color: #00d5ff;
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 .orangeText {
   color: #ffbb00;
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 .fas {
-  color: #0d0164;
-}
+  color: #0d0164; }
+
 .bi {
-  color: #00d5ff;
-}
+  color: #00d5ff; }
+
 .blackOverlay {
   background: rgba(0, 0, 0, 0.404);
   background-blend-mode: overlay;
-  border-radius: 2%;
-}
+  border-radius: 2%; }
 
 .whiteOverlay {
   background: rgba(255, 255, 255, 0.109);
   background-blend-mode: overlay;
-  margin-left: 2%;
-}
+  margin-left: 2%; }
+
 /* 
 =============================================================================================
 Nav
 =============================================================================================
 */
 .navbar .navbar-nav .nav-link {
-	color: #fff;
-	font-size: 1.2rem;
-}
-.nav-link:hover{
-	color: #ffbb00 !important;
-	font-size: 1.3rem !important;
-  transition: all 0.3s ease-in-out !important;
-}
+  color: #fff;
+  font-size: 1.2rem; }
+
+.nav-link:hover {
+  color: #ffbb00 !important;
+  font-size: 1.3rem !important;
+  transition: all 0.3s ease-in-out !important; }
+
 .navbar {
-	transition: all 0.5s ease-in-out;
-}
+  transition: all 0.5s ease-in-out; }
+
 .dm-fixed-nav {
   background-color: #0d0164 !important;
-	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-}
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
 .navbar-toggler {
-	border: none;
-  color: white !important;
-}
-.navbar-toggler-icon{
-  color:white !important;
-}
+  border: none;
+  color: white !important; }
+
+.navbar-toggler-icon {
+  color: white !important; }
+
 .navbar-toggler:focus,
 .navbar-toggler:hover {
-	border: none;
-	outline: none;
-}
+  border: none;
+  outline: none; }
+
 .nav-link-last {
   color: #ffbb00 !important;
-  background-color: white;
-}
+  background-color: white; }
+
 /* 
 =============================================================================================
 Buttons
@@ -139,65 +126,61 @@ Buttons
 */
 .btn-primary {
   background-color: #0d0164;
-  border: #0d0164;
-}
+  border: #0d0164; }
+
 .btn-primary:hover {
   background-color: #ffbb00;
-  border: #cf9902;
-}
+  border: #cf9902; }
+
 .btn-warning {
   background-color: #ffbb00 !important;
   color: black;
-  font-weight: 700;
-}
+  font-weight: 700; }
+
 .btn-warning:hover {
   background-color: #cf9902 !important;
   color: whitesmoke;
   transform: scale(1.1);
-  transition: cubic-bezier(1.075, 1.82, 1.165, 1);
-}
+  transition: cubic-bezier(1.075, 1.82, 1.165, 1); }
+
 .bigBlueIcon {
   font-size: 7rem;
-  color: #00d5ff;
-}
+  color: #00d5ff; }
+
 .bigBlueIcon:hover {
   transform: scale(1.1);
   transition: cubic-bezier(1.075, 1.82, 1.165, 1);
   color: #ffbb00;
-  font-size: 7.5rem;
-}
+  font-size: 7.5rem; }
+
 .bigOrangeIcon {
   font-size: 5rem;
-  color: #ffbb00;
-}
+  color: #ffbb00; }
+
 .bigOrangeIcon:hover {
   transform: scale(1.1);
   transition: cubic-bezier(1.075, 1.82, 1.165, 1);
   color: #00d5ff;
-  font-size: 5.5rem;
-}
+  font-size: 5.5rem; }
 
-.fa-footer{
+.fa-footer {
   color: white !important;
-  font-size: 1.8rem;
-}
+  font-size: 1.8rem; }
 
-.fa-footer:hover{
+.fa-footer:hover {
   transform: scale(1.1);
   transition: cubic-bezier(1.075, 1.82, 1.165, 1);
   color: #ffbb00 !important;
-  font-size: 2rem;
-}
-.headerBg{
-  min-height: 100vh !important;
-}
-.card {
-  margin-bottom: 4rem;
-}
-.jumbotron {
-  border-radius: 0;
-}
+  font-size: 2rem; }
 
+.headerBg {
+  min-height: 100vh !important; }
+
+.card {
+  margin-bottom: 4rem; }
+
+.jumbotron {
+  border-radius: 0; }
 
 /* 
 =============================================================================================
@@ -205,53 +188,56 @@ Carousel
 =============================================================================================
 */
 .carousel .carousel-item {
-	overflow: hidden;
-	min-height: 290px;
-}
-.carousel .carousel-item .img-box {
-	width: 135px;
-	height: 135px;
-	margin: 0 auto;
-	padding: 5px;
-	border: 1px solid #ddd;
-	border-radius: 50%;
-}
-.carousel .img-box img {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-}
-.carousel-control-prev, .carousel-control-next {
-	width: 4rem;
-	height: 4rem;
-	margin-top: -20px;
-	top: 50%;
-	background: none;
-}
-.carousel-control-prev i, .carousel-control-next i {
-	font-size: 4rem;
-	position: absolute;
-	display: inline-block;
-	color: rgba(17, 0, 255, 0.8);
-} 
-.carousel-indicators {
-	bottom: -2rem;
-}
-.carousel-indicators li, .carousel-indicators li.active {
-	border-radius: 50%;
-	border: none;
-}
-.carousel-indicators li {	
-	background: #ffbb00;
-	border-color: transparent;
-}
-.carousel-indicators li.active {	
-	background: #0d0164;		
-}
+  overflow: hidden;
+  min-height: 290px; }
 
-.carouselContainer{
-  min-height: auto;  /*To stop the carousel from causing scroll jumps when it changes */
-}
+.carousel .carousel-item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%; }
+
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; }
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4rem;
+  height: 4rem;
+  margin-top: -20px;
+  top: 50%;
+  background: none; }
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 4rem;
+  position: absolute;
+  display: inline-block;
+  color: rgba(17, 0, 255, 0.8); }
+
+.carousel-indicators {
+  bottom: -2rem; }
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  border-radius: 50%;
+  border: none; }
+
+.carousel-indicators li {
+  background: #ffbb00;
+  border-color: transparent; }
+
+.carousel-indicators li.active {
+  background: #0d0164; }
+
+.carouselContainer {
+  min-height: auto;
+  /*To stop the carousel from causing scroll jumps when it changes */ }
+
 /* 
 =============================================================================================
 Images all came from pexels.com or pixabay.com
@@ -260,74 +246,62 @@ Images all came from pexels.com or pixabay.com
 .headerBg {
   background: url("../img/headerBg.jpg");
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .jumbotronBg {
   background: url("../img/jumbotronBg.jpg");
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .midBg {
   background: url("../img/midBg.jpg");
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .lowBg {
   background: url("../img/lowBg.jpg");
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .skyDiveBg {
   background: url("../img/skyDiveBg.jpg");
   background-attachment: fixed;
   background-size: cover;
   /* padding: 3% 5%; */
-  color: white;
-}
+  color: white; }
 
 .contactBg {
   background: url("../img/contactBg.jpg");
   background-attachment: fixed;
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .img-rounded {
-  border-radius: 5%;
-}
-
+  border-radius: 5%; }
 
 .headerPadding {
-  padding: 3rem 0 0 0;
-}
+  padding: 3rem 0 0 0; }
 
 #sticky-footer {
   flex: 1 0 auto;
-  flex-shrink: none;
-}
+  flex-shrink: none; }
 
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
-  min-height: 200px;
-}
+  min-height: 200px; }
 
 .col-form-label {
   font-size: 1.2rem;
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 .form-check-input {
   height: 1.1rem;
-  width: 1.1rem;
-}
-.modal-header{
-  background-color: #00d5ff;
-}
+  width: 1.1rem; }
+
+.modal-header {
+  background-color: #00d5ff; }
+
 /* 
 =============================================================================================
 Code Reuse: Traversy Media
@@ -335,11 +309,11 @@ Code Reuse: Traversy Media
 */
 .animateInLeft {
   transform: translateX(-600%);
-  transition: transform 0.3s ease;
-}
+  transition: transform 0.3s ease; }
+
 .animateInLeft.show {
-  transform: translateX(0);
-} 
+  transform: translateX(0); }
+
 /* 
 =============================================================================================
 End of Code Reuse: Traversy Media
