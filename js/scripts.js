@@ -37,7 +37,7 @@ checkCols()
 function checkCols() {
     const triggerBottom = window.innerHeight / 20 * 19
     
-    colsLeft.forEach(animateInLeft => {
+    colsLeft.forEach(function(animateInLeft) {
         const colTop =  animateInLeft.getBoundingClientRect().top
 
         if(colTop < triggerBottom){
